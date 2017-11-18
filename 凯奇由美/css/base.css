@@ -1,0 +1,134 @@
+@charset "utf-8";
+/* CSS Document */
+body,h1,h2,h3,h4,h5,h6,p,ul,li,a,dl,dt,dd,header,footer,main,section,img,input{padding:0; margin:0;}
+ul,ol{list-style:none;}
+
+body{color:#505050; font-size:16px;}
+a{text-decoration:none; color:#505050;}
+
+
+.l{float:left;}
+.r{float:right;}
+.w{width:1100px;  margin:0 auto;}
+
+header{
+	height:100px;
+	background:#dedede;
+}
+header section img:nth-child(2){
+	padding-top:20px;
+}
+nav{
+	height:60px;
+	background:#5f5c9f;
+}
+nav ul{
+	text-align:center;
+	height:60px;
+}
+nav ul li{
+	float:left;
+	height:60px;
+	color:#fff;
+}
+nav ul li a{
+	display:block;
+	height:60px;
+	line-height:60px;
+	text-align:center;
+	color:#fff;
+	padding:0 43px;
+}
+nav ul li .first{
+	background:#7c86c4;
+	font-size:26px;
+}
+nav ul li a:hover{
+	background:#f60;
+}
+nav ul li .first:hover{
+	background:#7c86c4;
+}
+nav ul li:nth-child(6){
+	position:relative;
+}
+nav ul li:nth-child(6) .erji{
+	display:none;
+	position:absolute;
+	left:0;
+	top:60px;
+	height:120px;
+}
+nav ul li:nth-child(6):hover{
+	
+	background:#f60;
+}
+nav ul li:nth-child(6):hover .erji{
+	background:#f60;
+	display:block;
+}
+footer .w{
+	height:560px;
+	background:#383838;
+	text-align:center;
+	margin-top:30px;
+}
+footer h2{
+	padding-top:68px;
+	font-size:34px;
+	color:#fefefe;
+}
+footer h2 span{
+	color:#ffcd1e;
+}
+footer .w p{
+	width:775px;
+	color:#fef1cc;
+	margin-left:165px;
+	line-height:30px;
+}
+footer .w p span{
+	color:#ffcd1e;
+}
+footer .w p:nth-of-type(1){
+	border-top:1px solid #ccc;	
+	margin-top:20px;
+}
+footer .w p:nth-of-type(4){
+	padding-top:24px;
+}
+footer .w p:nth-of-type(4) a{
+	color:#fef1cc;
+}
+footer .w p:nth-of-type(4) a:hover{
+	color:#f60;
+}
+footer .w .foot .pic p{
+	margin-top:0;
+	border:0;
+}
+footer .w .foot .pic p:nth-child(1){
+	margin-top:15px;
+}
+footer .w .foot .pic p:nth-child(1) img:nth-child(1){
+	padding-right:45px;
+}
+footer .w .foot .pic p:nth-child(2) p{
+	margin-top:0;
+	padding-top:0;
+	line-height:0;
+}
+footer .w .foot .pic p:nth-child(2) span{
+	padding-top:0;
+	color:#e8e8e7;
+	font-size:12px;
+}
+footer .w .foot .pic p:nth-child(2) span:nth-child(2){
+	padding-left:50px;
+}
+footer .w .imgpic{
+	padding-top:30px;
+}
+
+
+

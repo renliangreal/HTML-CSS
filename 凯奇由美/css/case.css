@@ -1,0 +1,79 @@
+@charset "utf-8";
+/* CSS Document */
+.pic2 img{
+	display:block;
+	width:40px;
+	height:40px;
+	margin-bottom:10px;
+}
+
+.pic2{
+	position:fixed;
+	left:40px;
+	top:235px;
+}
+.pic2 ul li{
+	position:relative;
+}
+.pic2 ul li .wm{
+	display:none;
+	position:absolute;
+	left:42px;
+	top:0;
+}
+.pic2 ul li:hover .wm{
+	display:block;
+}
+.banner{
+	height:500px;
+	background:url(../images/17%E4%B8%83%E5%A4%95.jpg) center;
+}
+main .title{
+	height:73px;
+}
+main .title h2{
+	padding-top:25px;
+}
+main .title h2 img{
+	position:relative;
+	top:10px;left:0;
+}
+main .w .topic2 p{
+	height:32px;
+	line-height:32px;
+	border-bottom:1px solid #000;
+	color:#2b2b2b;
+	font-size:22px;
+	font-weight:100;
+}
+main .w .topic2 p span{
+	font-size:14px;
+	color:#b7a0a0;
+}
+main .w .topic2 .pic{
+	height:1264px;
+	margin-top:14px;
+	padding-bottom:10px;
+}
+main .w .topic2 p a{
+	float:right;
+	font-size:12px;
+	color:#c0c0c0;
+}
+main .w .topic2 .pic ul{
+	display:flex;
+	flex-wrap:wrap;
+}
+main .w .topic2 .pic ul li img{
+	width:270px;
+	height:375px;
+	border:1px solid #c0c0c0;
+	margin-right:3px;
+	
+}
+main .w .topic2 .pic ul li h4{
+	height:45px;
+	line-height:45px;
+	font-size:18px;
+	font-weight:300;
+}

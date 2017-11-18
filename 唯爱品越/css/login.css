@@ -1,0 +1,65 @@
+
+@charset "utf-8";
+/* CSS Document */
+
+.con{
+	height:600px;
+	background-color:#cecece;
+	background-image:url(../images/75.png);
+	background-repeat:no-repeat;
+	background-position:378px;
+}
+.con .login1{
+	width:357px;
+	height:305px;
+	background:#f4f4f4;
+	margin-left:780px;	
+}
+.con>p{
+	padding-top:30px;
+	margin-left:780px;
+	width:357px;
+	height:38px;
+}
+.con>p span{
+	height:38px;
+	line-height:38px;
+	display:inline-block;
+	font-size:14px;
+	color:#000;
+}
+.con .login1 .user{
+	margin-top:70px;
+	margin-left:30px;
+	border-radius:5px;
+	border:1px solid #ccc;
+	height:32px;
+	width:282px;
+	color:#ccc;
+	padding-left:10px;
+}
+.con .login1 .password{
+	margin-left:30px;
+	border-radius:5px;
+	border:1px solid #ccc;
+	height:32px;
+	width:282px;
+	color:#ccc;
+	padding-left:10px;
+}
+
+.con .login1 .p1{
+	margin-left:30px;
+	width:292px;
+	color:#000;
+}
+.con .login1 .sub{
+	height:32px;
+	width:292px;
+	margin-left:30px;
+	background:#2e2e30;
+	margin-top:28px;
+	color:#fff;
+	border:0;
+	border-radius:5px;
+}

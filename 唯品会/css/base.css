@@ -1,0 +1,14 @@
+@charset "utf-8";
+/* CSS Document */
+html,body{
+	width:100%;
+	height:100%;
+}
+body,div,p,ul,li,ol,dl,dt,dd,h1,h2,h3,h4,h5,h6,input,img,figure,figcaption{padding:0;margin:0;}
+header,nav,main,section,aside,article{display:block;}
+img{display:block; border:0;}
+input{outline:none;}
+a{text-decoration:none;color:#555;}
+body{font-size:14px;
+	color:#555555;}
+ul,li{list-style:none;}

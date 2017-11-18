@@ -1,0 +1,104 @@
+@charset "utf-8";
+/* CSS Document */
+
+.con{
+	height:600px;
+	background-color:#cecece;
+	background-image:url(../images/75.png);
+	background-repeat:no-repeat;
+	background-position:378px;
+}
+.con .login1{
+	width:357px;
+	height:426px;
+	background:#f4f4f4;
+	margin-left:780px;	
+}
+.con .login1 ul{
+	height:32px;
+	display:flex;
+	/*justify-content:space-between;*/
+}
+.con .login1 ul li{
+	text-align:center;
+	flex:1;
+	display:inline-block;
+	line-height:32px;
+}
+.con .login1 ul li:nth-child(1){
+	border-bottom:4px solid #ad0800;
+	color:#ad0800;
+}
+.con>p{
+	padding-top:30px;
+	margin-left:780px;
+	width:357px;
+	height:38px;
+}
+.con>p span{
+	height:38px;
+	line-height:38px;
+	display:inline-block;
+	font-size:14px;
+	color:#000;
+}
+.con .login1 .user{
+	margin-top:20px;
+	margin-left:30px;
+	border-radius:5px;
+	border:1px solid #ccc;
+	height:32px;
+	width:282px;
+	color:#ccc;
+	padding-left:10px;
+}
+.con .login1 .password{
+	margin-left:30px;
+	border-radius:5px;
+	border:1px solid #ccc;
+	height:32px;
+	width:282px;
+	color:#ccc;
+	margin-top:20px;
+	padding-left:10px;
+}
+
+.con .login1 .p1{
+	margin-left:30px;
+	width:292px;
+	color:#000;
+}
+.con .login1 .p1 input{
+	width:124px;
+	height:32px;
+	margin-top:20px;
+	padding-left:10px;
+	border:1px solid #ccc;
+	border-radius:5px;
+}
+.con .login1 .check{
+	margin-left:30px;
+	margin-top:20px;
+}
+.con .login1 .sub{
+	height:32px;
+	width:292px;
+	margin-left:30px;
+	background:#2e2e30;
+	margin-top:28px;
+	color:#fff;
+	border:0;
+	border-radius:5px;
+}
+.con .login1 .p1 span a{
+	display:inline-block;
+	width:149px;
+	height:32px;
+	border:1px solid #ccc;
+	margin-top:20px;
+	line-height:32px;
+	text-align:center;
+}
+.con .login1 .p1 span a:hover{
+	background:#ccc;
+}

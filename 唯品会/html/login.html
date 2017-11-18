@@ -1,0 +1,42 @@
+<!doctype html>
+<html style="font-size:100px;">
+<head>
+<meta charset="utf-8">
+<title>无标题文档</title>
+<!--<meta name="viewport" content="width=device-width,initial-scale=1.0"/>-->
+<link rel="stylesheet" type="text/css"  href="../css/base.css"/>
+<link rel="stylesheet" type="text/css" href="../css/login.css"/>
+<meta name="viewport" content="initial-scale=1,maximum-scale=1, minimum-scale=1">
+
+<script type="text/javascript">
+	// 把尺寸放大N倍（N是window.devicePixelRatio）
+	var wd = document.documentElement.clientWidth*window.devicePixelRatio/7.5;
+	document.getElementsByTagName("html")[0].style.fontSize = wd + "px";
+	// 把屏幕的倍率缩小到N分之一（N是window.devicePixelRatio）
+	var scale = 1/window.devicePixelRatio;
+	var mstr = 'initial-scale='+ scale +', maximum-scale='+ scale +', minimum-scale='+ scale +', user-scalable=no';
+	document.getElementById("vp").content = mstr;
+
+</script>
+
+</head>
+
+<body>
+<header>
+	<a href="../index.html"><i class="iconfont">&#xe648;</i></a>
+	<div></div>
+</header>
+<form>
+	<div>手机号<input type="tel" placeholder="请输入手机号"></div>
+    <div class="d1">验证码<input type="text" placeholder="请输入验证码"></div>
+    <a href="#" class="a2">获取验证码</a>
+     <input type="submit" value="手机号注册登陆" class="zhuce">
+
+<p>若您输入的手机号未注册，将会进入注册流程。注册即视为同意<a href="#" class="a1">《唯品会服务条款》、《隐私条款》等</a></p>
+<fieldset>
+	<legend>或</legend>
+    <div class="last"><input type="button" value="密码登陆" class="denglu"></div>
+</fieldset>
+</form>
+</body>
+</html>

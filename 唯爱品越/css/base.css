@@ -1,0 +1,475 @@
+@charset "utf-8";
+/* CSS Document */
+
+body,h1,h2,h3,h4,h5,h6,p,ul,li,a,dl,dt,dd,header,footer,main,section,img,input,select{
+	padding:0;
+	 margin:0;
+}
+ul,ol{list-style:none;}
+
+body{color:#a6a6a6; font-size:12px;}
+a{text-decoration:none; color:#505050;}
+
+
+.l{float:left;}
+.r{float:right;}
+.w{width:1140px;  margin:0 auto;}
+
+header{
+	height:28px;
+	background:#f8f8f8;
+}
+header .w ul li{
+	display:inline-block;
+	height:28px;
+	line-height:28px;
+	padding:0 11px;
+}
+header .w ul li:nth-child(1){
+	position:relative;
+	height:26px;
+	width:70px;
+	text-align:center;
+}
+header .w ul li:nth-child(1):hover a{
+	display:block;
+	height:28px;
+	line-height:28px;
+	/*border:1px solid #000;*/
+	background:#fff;
+	border-left:1px solid #000;
+	border-right:1px solid #000;
+	width:68px;
+}
+header .w ul li:nth-child(1) ul{
+	position:absolute;
+	display:none;
+	width:318px;
+	height:157px;
+	border:1px solid #000;
+	position:absolute;
+	left:-239px;
+	top:27px;
+	position:relative;
+	background:#fff;
+	z-index:101;
+}
+
+header .w ul li:nth-child(1):hover ul{
+	display:block;
+	position:absolute;
+}
+header .w span{
+	display:inline-block;
+	height:28px;
+	line-height:28px;
+	color:#000;
+}
+header .w ul li:nth-child(1) ul .cover{
+	display:inline-block;
+	width:68px;
+	height:10px;
+	position:absolute;
+	background:#fff;
+	left:250px;
+	top:-7px;
+	
+}
+header .w ul li a{
+	color:#a6a6a6;
+}
+header .w ul .tel{
+	background:url(../images/11.jpg) no-repeat 0 10px;
+}
+header .w ul .tel a{
+	padding-left:15px;
+}
+.search{
+	height:72px;
+}
+.search img{
+	height:72px;
+}
+.search .sear{
+	display:inline-block;
+	width:195px;
+	height:30px;
+	border:1px solid #dddddd;
+	margin-top:20px;
+	line-height:30px;
+	color:#ddd;
+	background:url(../images/10.png) no-repeat 175px 10px;
+}
+.search .sear input{
+	border:0;
+	outline:none;
+	height:28px;
+	padding-left:6px;
+	color:#ddd;
+	cursor:pointer;
+}
+.login{
+	height:16px;
+	color:#000;
+	width:80px;
+	display:inline-block;
+	margin-left:210px;
+	margin-top:20px;
+}
+.login a{
+	display:inline-block;
+	width:30px;
+	text-align:center;
+}
+.login span{
+	color:#ddd;
+}
+.shop{
+	width:90px;
+	display:inline-block;
+	margin-top:20px;
+	text-align:right;
+	background:url(../images/12.jpg) no-repeat 6px 0px;
+}
+.shop span{
+	display:inline-block;
+	width:20px;
+	height:20px;
+	border-radius:50%;
+	background:#ad0800;
+	line-height:20px;
+	color:#fff;
+	text-align:center;
+}
+
+nav{
+	height:36px;
+	background:#e5e5e5;
+	position:relative;
+	right:0;
+	top:0;
+	width:100%;
+	z-index:100;
+}
+nav .w ul{
+	height:36px;
+	line-height:36px;
+	display:inline-block;
+}
+nav .w ul:nth-child(1){
+	float:left;
+}
+nav .w ul li{
+	display:inline-block;
+}
+nav .w ul li a{
+	display:block;
+	padding:0 18px;
+	color:#000;
+}
+nav .w ul li a:hover{
+	background:#bcbcbc;
+}
+nav .w>ul:nth-child(2){
+	float:right;
+}
+nav .w>ul:nth-child(1) .ring{
+	position:relative;
+}
+nav .w>ul:nth-child(1) .ring .ringUl{
+	height:0;
+	overflow:hidden;
+	position:absolute;
+	background:#e5e5e5;
+	width:90px;
+	top:35px;
+	left:0;
+}
+nav .w>ul:nth-child(1) .ring .ringUl li{
+	clear:both;
+	height:25px;
+	line-height:25px;
+	display:block;
+	color:#000;
+}
+nav .w>ul:nth-child(1) .ring:hover .ringUl{
+	height:75px;
+	transition:all .2s linear 0s;
+}
+nav .w>ul:nth-child(1) .ring .ringUl li:hover a{
+	background:#e5e5e5;
+	color:#777;
+	text-decoration:underline;
+}
+
+
+nav .w>ul:nth-child(1) .ring1{
+	position:relative;
+}
+nav .w>ul:nth-child(1) .ring1 .ringUl{
+	height:0;
+	overflow:hidden;
+	position:absolute;
+	background:#e5e5e5;
+	width:120px;
+	top:35px;
+	left:0;
+}
+nav .w>ul:nth-child(1) .ring1 .ringUl li{
+	clear:both;
+	height:25px;
+	line-height:25px;
+	display:block;
+	color:#000;
+}
+nav .w>ul:nth-child(1) .ring1:hover .ringUl{
+	height:225px;
+	transition:all .2s linear 0s;
+}
+nav .w>ul:nth-child(1) .ring1 .ringUl li:hover a{
+	background:#e5e5e5;
+	color:#777;
+	text-decoration:underline;
+}
+
+
+nav .w>ul:nth-child(1) .ring2{
+	position:relative;
+}
+nav .w>ul:nth-child(1) .ring2 .ringUl{
+	height:0;
+	overflow:hidden;
+	position:absolute;
+	background:#e5e5e5;
+	width:100px;
+	top:35px;
+	left:0;
+}
+nav .w>ul:nth-child(1) .ring2 .ringUl li{
+	clear:both;
+	height:25px;
+	line-height:25px;
+	display:block;
+	color:#000;
+}
+nav .w>ul:nth-child(1) .ring2:hover .ringUl{
+	height:200px;
+	transition:all .2s linear 0s;
+}
+nav .w>ul:nth-child(1) .ring2 .ringUl li:hover a{
+	background:#e5e5e5;
+	color:#777;
+	text-decoration:underline;
+}
+
+
+nav .w>ul:nth-child(1) .ring3{
+	position:relative;
+}
+nav .w>ul:nth-child(1) .ring3 .ringUl{
+	height:0;
+	overflow:hidden;
+	position:absolute;
+	background:#e5e5e5;
+	width:90px;
+	top:35px;
+	left:0;
+}
+nav .w>ul:nth-child(1) .ring3 .ringUl li{
+	clear:both;
+	height:25px;
+	line-height:25px;
+	display:block;
+	color:#000;
+}
+nav .w>ul:nth-child(1) .ring3:hover .ringUl{
+	height:125px;
+	transition:all .2s linear 0s;
+}
+nav .w>ul:nth-child(1) .ring3 .ringUl li:hover a{
+	background:#e5e5e5;
+	color:#777;
+	text-decoration:underline;
+}
+
+
+nav .w>ul:nth-child(1) .ring4{
+	position:relative;
+}
+nav .w>ul:nth-child(1) .ring4 .ringUl{
+	height:0;
+	overflow:hidden;
+	position:absolute;
+	background:#e5e5e5;
+	width:120px;
+	top:35px;
+	left:0;
+}
+nav .w>ul:nth-child(1) .ring4 .ringUl li{
+	clear:both;
+	height:25px;
+	line-height:25px;
+	display:block;
+	color:#000;
+}
+nav .w>ul:nth-child(1) .ring4:hover .ringUl{
+	height:75px;
+	transition:all .2s linear 0s;
+}
+nav .w>ul:nth-child(1) .ring4 .ringUl li:hover a{
+	background:#e5e5e5;
+	color:#777;
+	text-decoration:underline;
+}
+
+
+nav .w>ul:nth-child(1) .ring5{
+	position:relative;
+}
+nav .w>ul:nth-child(1) .ring5 .ringUl{
+	height:0;
+	overflow:hidden;
+	position:absolute;
+	background:#e5e5e5;
+	width:120px;
+	top:35px;
+	left:0;
+}
+nav .w>ul:nth-child(1) .ring5 .ringUl li{
+	clear:both;
+	height:25px;
+	line-height:25px;
+	display:block;
+	color:#000;
+}
+nav .w>ul:nth-child(1) .ring5:hover .ringUl{
+	height:100px;
+	transition:all .2s linear 0s;
+}
+nav .w>ul:nth-child(1) .ring5 .ringUl li:hover a{
+	background:#e5e5e5;
+	color:#777;
+	text-decoration:underline;
+}
+
+
+.navfoot{
+	height:64px;
+	background:#e5e5e5;
+}
+
+.navfoot ul{
+	text-align:center;
+}
+.navfoot ul li{
+	display:inline-block;
+	font-size:16px;
+	color:#000;
+	line-height:64px;
+	padding:0 42px;
+}
+.navfoot ul li:nth-child(1){
+	background:url(../images/17.png) no-repeat -7px 0;
+}
+.navfoot ul li:nth-child(2){
+	background:url(../images/18.png) no-repeat -7px 0;
+}
+.navfoot ul li:nth-child(3){
+	background:url(../images/19.png) no-repeat -7px 0;
+}
+.navfoot ul li:nth-child(4){
+	background:url(../images/20.png) no-repeat -7px 0;
+}
+.navfoot ul li:nth-child(5){
+	background:url(../images/21.png) no-repeat -7px 0;
+}
+.navfoot ul li:nth-child(6){
+	background:url(../images/22.png) no-repeat -7px 0;
+}
+.navfoot ul li:nth-child(7){
+	background:url(../images/23.png) no-repeat -7px 0;
+}
+
+.detail{
+	padding-top:40px;
+	background:#faf9f9;
+}
+.detail ul{
+	display:inline-block;
+}
+.detail ul li{
+	padding-left:40px;
+	display:inline-block;
+	padding-right:25px;
+}
+.detail ul li h3{
+	height:25px;
+	font-weight:100;
+	font-size:16px;
+	color:#000;
+}
+.detail ul li a{
+	display:block;
+	line-height:30px;
+	color:#7d7d7d;
+}
+.detail ul li a:hover{
+	color:#9c0800;
+}
+.detail>img:nth-of-type(2){
+	margin-right:20px;
+}
+
+.detail .seek{
+	height:36px;
+	text-align:center;
+	line-height:36px;
+	padding-top:38px;
+}
+.detail .seek p{
+	display:inline-block;
+	height:34px;
+	line-height:34px;
+	width:325px;
+	border:1px solid #c9c9c9;
+	margin-left:56px;
+}
+.detail .seek img{
+	padding-left:255px;
+}
+.detail .seek p strong{
+	font-size:18px;
+	color:#666;
+	font-weight:100;
+}
+.detail .seek p span{
+	padding-left:21px;
+	color:#333;
+	font-size:12px;
+}
+.detail .p3{
+	padding-top:27px;
+	text-align:center;
+	font-size:14px;
+	color:#7d7d7d;
+}
+.detail .p3 img{
+	display:block;
+	margin:0 auto;
+	margin-top:12px;
+	border:1px solid #c9c9c9;
+}
+.detail .foot{
+	width:820px;
+	text-align:center;
+	margin:0 auto;
+	padding-top:36px;
+	color:#c1c1c1;
+	padding-bottom:60px;
+}
+.detail .foot a{
+	color:#c1c1c1;
+}
+.detail .foot a:hover{
+	color:#ad0900;
+}

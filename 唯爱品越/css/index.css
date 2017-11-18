@@ -1,0 +1,202 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.banner{
+	height:580px;
+	background:url(../images/banner.jpg) no-repeat center;
+}
+
+main .make{
+	height:430px;
+	background:#f8f8fa;
+	margin-top:60px;
+}
+main .make ul{
+	display:flex;
+	justify-content:space-between;
+}
+main .make h3{
+	padding-top:36px;
+	text-align:center;
+	font-size:22px;
+	font-weight:100;
+	color:#333;
+}
+main .make h3 span{
+	font-size:30px;
+	font-weight:bold;
+	padding-top:30px;
+}
+main .make ul{
+	padding-top:30px;
+}
+main .make ul li.li1{
+	padding-top:30px;
+	padding-left:120px;
+}
+main .make ul li.li1 img,main .make ul li.li1 p{
+	transition:all .5s linear 0s;
+}
+main .make ul li.li1:hover img{
+	transform:translateY(-20px);
+}
+main .make ul li.li1:hover p{
+	background:#ad0800;
+	color:#fff;
+}
+
+main .make ul li p{
+	display:block;
+	width:128px;
+	height:28px;
+	background:#bcbcbc;
+	text-align:center;
+	line-height:28px;
+	color:#000;
+}
+main .make ul li.li2{
+	padding-top:80px;
+}
+main .make ul li.li3{
+	padding-top:40px;
+}
+main .make ul li.li3 img,main .make ul li.li3 p{
+	transition:all .5s linear 0s;
+}
+main .make ul li.li3:hover img{
+	transform:translateY(-20px);
+}
+main .make ul li.li3:hover p{
+	background:#ad0800;
+	color:#fff;
+}
+main .make ul li.li3 p{
+	margin-left:62px;
+}
+main .make ul li.li4{
+	padding-top:90px;
+}
+main .make ul li.li5{
+	padding-right:50px;
+}
+main .make ul li.li5 p{
+	background:none;
+	margin-left:60px;
+}
+main .tuijian{
+	margin-top:70px;
+	height:38px;
+	background:#bcbcbc;
+	margin-bottom:20px;
+}
+main .tuijian ul{
+	text-align:center;
+}
+main .tuijian li{
+	display:inline-block;
+	line-height:38px;
+}
+main .tuijian li a{
+	display:block;
+	padding:0 43px;
+	color:#fff;
+}
+main .tuijian ul li:nth-child(1) a{
+	color:#000;
+}
+main .tuijian li:hover a{
+	color:#000;
+}
+main .pic{
+	height:694px;
+	display:flex;
+	justify-content:space-between;
+	margin-bottom:90px;
+}
+main .pic .left{
+	margin-right:16px;
+	position:relative;
+}
+main .pic .right p:nth-child(1){
+	margin-bottom:14px;
+}
+main .pic .left:hover span{
+	width:450px;
+	height:694px;
+	background:rgba(255,255,255,.6);
+	display:block;
+	position:absolute;
+	left:0;
+	top:0;
+}
+
+main .pic .right .p1{
+	position:relative;
+}
+main .pic .right .p1:hover span{
+	width:676px;
+	height:440px;
+	background:rgba(255,255,255,.6);
+	display:block;
+	position:absolute;
+	left:0;
+	top:0;
+}
+
+main .pic .right .p2{
+	position:relative;
+}
+main .pic .right .p2:hover span{
+	width:676px;
+	height:240px;
+	background:rgba(255,255,255,.6);
+	display:block;
+	position:absolute;
+	left:0;
+	top:0;
+}
+main .news{
+	height:330px;
+	margin-bottom:80px;
+}
+main .news .left{
+	width:677px;
+	height:320px;
+	border-top:5px solid #bcbcbc;
+	border-bottom:5px solid #bcbcbc;
+}
+main .news .left .top{
+	margin-top:27px;
+	height:60px;
+	line-height:60px;
+	border-bottom:1px solid #c9c9c9;
+	margin-bottom:7px;
+}
+main .news .left .top h3{
+	display:inline-block;
+	font-weight:100;
+	color:#000;
+	font-size:16px;
+}
+main .news .left .top span{
+	font-size:22px;
+}
+main .news .left ul li{
+	padding-left:10px;
+	line-height:26px;
+	background:url(../images/i10.jpg) no-repeat 0 13px;
+	color:#000;
+}
+main .news .left p{
+	height:48px;
+	line-height:48px;
+	padding-left:20px;
+}
+main .news .left .r .top{
+	width:311px;
+}
+main .news  a:hover{
+	color:#ad0900;
+}
+

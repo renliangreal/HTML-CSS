@@ -1,0 +1,85 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	background:#14181f;
+}
+.pic1{
+	width:870px;
+	margin:0 auto;
+}
+.pic1  img{
+	width:870px;
+}
+.pic2 img{
+	display:block;
+	width:40px;
+	height:40px;
+	margin-bottom:10px;
+}
+
+.pic2{
+	position:fixed;
+	left:40px;
+	top:235px;
+}
+.pic2 ul li{
+	position:relative;
+}
+.pic2 ul li .wm{
+	display:none;
+	position:absolute;
+	left:42px;
+	top:0;
+}
+.pic2 ul li:hover .wm{
+	display:block;
+}
+
+.navCon{
+	position:fixed;
+	right:38px;
+	top:235px;
+}
+
+.navCon ul li{
+	/*height:45px;*/
+	color:#fff;
+	width:225px;
+	line-height:45px;
+	background:url(../images/icon2.png) no-repeat 24px 0;
+}
+.navCon ul li a{
+	display:block;
+	height:45px;
+	line-height:45px;
+	padding-left:67px;
+	color:#fff;
+}
+.navCon ul li a:hover{
+	color:#f60;
+}
+
+
+.navCon .pinpai .story{
+	height:0;
+	overflow:hidden;
+}
+.navCon .pinpai .story li{
+	padding-left:30px;
+}
+.navCon .pinpai:hover .story{
+	height:180px;
+	transition:all .5s linear 0s;
+}
+.navCon .pinpai .story li{
+	background:url(../images/icon5.png) no-repeat 50px 0;
+}
+
+
+
+
+
+
+
+
